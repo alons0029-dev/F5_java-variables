@@ -88,7 +88,7 @@ https://www.w3schools.com/java/java_operators.asp
 
 El "type casting" en Java es el proceso de convertir un valor de un tipo de dato a otro. Este proceso puede ser explícito o implícito, dependiendo de la situación y los tipos de datos involucrados.
 
-1. Type Casting Implícito (Automático):
+* Type Casting Implícito (Automático):
 Ocurre cuando Java convierte automáticamente un tipo de dato a otro de mayor tamaño o precisión. También conocido como widening conversion.
 
 int intValue = 10;
@@ -96,7 +96,7 @@ double doubleValue = intValue;
 System.out.println("doubleValue: " + doubleValue);
 Resultado: 10.0
 
-2. Type Casting Explícito (Forzado):
+* Type Casting Explícito (Forzado):
 Ocurre cuando se convierte un tipo de dato a otro de menor tamaño o precisión. También conocido como narrowing conversion. Necesita ser especificado explícitamente en el código.
 
 double doubleValue = 9.78;
